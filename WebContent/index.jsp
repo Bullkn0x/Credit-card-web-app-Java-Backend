@@ -15,7 +15,7 @@
 <body>
 <p>Credit Card System</p>
 
-
+<br><br><br><br>
 
 <h3>Get All transactions in a given <b>zip code</b> for a <b>given month</b></h3>
 <form class ="form" action="transactionbyzip">
@@ -29,8 +29,9 @@
   </p>
   <input class="submit" type="submit" value="Submit">
 </form>
-</form> 
 
+
+<br><br><br>
 
 
 <h3>Get Total transactions and Value for a Given Category </h3>
@@ -42,7 +43,7 @@
   <input class="submit" type="submit" value="Submit">
 </form> 
 
-
+<br><br><br>
 
 
 <h3>Get the transactions made by Customers in a given Zipcode for during a given time frame </h3>
