@@ -1,7 +1,29 @@
-.form {
+.test{
 	color:white;
 }
+.transaction{
+	padding-bottom: 10%;
+}
 
+.wrapper{	
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+
+.form {
+	color:white;
+	padding-left: 3%;
+	padding-top: 9px;
+	    
+}
+p.header {
+	font-size:36px;
+	text-align: center;
+}
+datalist[]
+{
+  background: red;
+}
 html {
 	background:linear-gradient(120deg, #000000, #6161ab) no-repeat center center fixed;
 	font-family: 'Orbitron', sans-serif;
@@ -54,7 +76,9 @@ p, h3 {
 	font-weight: bold;
 }
 
-label {display:block;}
+label {
+	display:block;
+}
 
 input, button {
   padding: 5px 14px;
@@ -83,6 +107,8 @@ input[type=month]::-webkit-inner-spin-button {
 .submit {
 	background-color:#6666FF;
 	opacity: 1;
+	font-family: 'Orbitron', sans-serif;
+	padding-top: 6.5px;
 }
 
 input:invalid+span:after {
